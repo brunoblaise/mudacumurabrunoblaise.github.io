@@ -29,6 +29,7 @@ header{
     justify-content: space-between;
     padding: 1.3rem;
     color: #fff;
+    background-color: #fff;
 }
 header nav{
     display: flex;
