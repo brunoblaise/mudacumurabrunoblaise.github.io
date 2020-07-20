@@ -297,7 +297,7 @@ background-color: #fff;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-size: 16px;
-    
+        overflow: hidden;
     
     }
     
@@ -455,7 +455,7 @@ left: -10px;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-size: 16px;
-    
+        overflow: hidden;
     
     }
     
@@ -613,7 +613,7 @@ left: -10px;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-size: 16px;
-    
+    overflow: hidden;
     
     }
     
