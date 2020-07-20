@@ -58,6 +58,7 @@ text-transform: capitalize;
 height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
 .content{
     position: relative;
@@ -137,3 +138,619 @@ background-color: #fff;
   border: none;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)and (orientation: landscape) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        background: #F5F6F7;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 16px;
+    
+    }
+    
+    h1{
+        text-transform: uppercase;
+        background: -webkit-gradient(linear, left top, right top, from(#30CFD0), to(#330867));
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.3rem;
+        color: #fff;
+    }
+    header nav{
+        display: flex;
+       justify-content: space-between;
+    }
+    
+     nav ul {
+        display: flex;
+       justify-content: space-between;
+       padding-left:570px 
+    }
+    nav li {
+        list-style: none;
+        font-size: 14px;
+    padding-left: 2rem;
+    }
+    
+     li a {
+        list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    }
+    .main{
+        background-image: url('./yooo.jpg');
+    height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .content{
+        position: relative;
+     
+        color: #1F2667;
+        width: 320px;
+        background-color: #fff;
+        top: 400px;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+      left: 20px;  margin: 0 0 1.5em;
+       
+        color: #1F2667;
+        font-size: 16px;
+    }
+    .content p,h2{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+      margin: 1rem;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: #1F2667;
+    }
+    .qoutes{
+        position: relative;
+    display: flex;
+    border: 1px dotted #DFE1E6;
+    width: 520px;
+    left: 400px;
+    }
+    .row{
+        
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 120px;
+        width: 420px;
+        background-color: #fff;
+        padding: 1rem;
+    }
+    
+    .row p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+        font-weight: 400;
+        color: #1F2667;
+    }
+    .column{
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 120px;
+        width: 420px;
+    background-color: #fff;
+        padding: 1.2rem;
+        padding-left: 2rem;
+     margin-left: 1rem;
+    }
+    
+    .contact{
+        display: flex;
+        position: relative;
+        padding: 1rem;
+        margin-top: 1rem;
+        padding-left: 2rem;
+        top: 80px;
+    }
+    .column a{
+       
+        color: #1F2667;
+        text-decoration: none;
+    }
+    .column:hover{
+      border: none;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media only screen and (max-width: 480px), (orientation: portrait) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        background: #F5F6F7;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 16px;
+    
+    
+    }
+    
+    h1{
+        text-transform: uppercase;
+        background: -webkit-gradient(linear, left top, right top, from(#30CFD0), to(#330867));
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.3rem;
+        color: #fff;
+    }
+    header nav{
+        display: flex;
+       justify-content: space-between;
+    }
+    
+     nav ul {
+        display: flex;
+       justify-content: space-between;
+       padding-left:160px 
+    }
+    nav li {
+        list-style: none;
+        font-size: 14px;
+    padding-left: 2rem;
+    }
+    
+     li a {
+        list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    }
+    .main{
+        background-image: url('./yooo.jpg');
+    height: 590px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .content{
+        position: relative;
+     
+        color: #1F2667;
+        width: 320px;
+        background-color: #fff;
+        top: 300px;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+      left: 20px;  margin: 0 0 1.5em;
+       
+        color: #1F2667;
+        font-size: 16px;
+    }
+    .content p,h2{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+      margin: 1rem;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: #1F2667;
+    }
+    .qoutes{
+        position: relative;
+    display: flex;
+    border: 1px dotted #DFE1E6;
+    width: 500px;
+left: -10px;
+    top: 200px;
+
+    
+    }
+    .row{
+      
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 500px;
+        background-color: #fff;
+        padding: 1rem;
+    }
+    .row1{
+      
+        width: 500px;
+       
+    }
+    .row p{
+        font-size: 18px;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: #1F2667;
+        
+    }
+    .column{
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 510px;
+    background-color: #fff;
+        padding: 1.2rem;
+        padding-left: 2rem;
+     margin-left: .1rem;
+    
+    }
+    
+    .contact{
+        width: 510px;
+        display: flex;
+        position: relative;
+        padding: 1rem;
+        margin-top: 1rem;
+        padding-left: 2rem;
+        top: 200px;
+      right: 40px;
+      width: 510px;
+    }
+    .column a{
+        width: 510px;
+        color: #1F2667;
+        text-decoration: none;
+    }
+    .column:hover{
+      border: none;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        background: #F5F6F7;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 16px;
+    
+    
+    }
+    
+    h1{
+        text-transform: uppercase;
+        background: -webkit-gradient(linear, left top, right top, from(#30CFD0), to(#330867));
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.3rem;
+        color: #fff;
+    }
+    header nav{
+        display: flex;
+       justify-content: space-between;
+    }
+    
+     nav ul {
+        display: flex;
+       justify-content: space-between;
+       padding-left:160px 
+    }
+    nav li {
+        list-style: none;
+        font-size: 14px;
+    padding-left: 2rem;
+    }
+    
+     li a {
+        list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    }
+    .main{
+        background-image: url('./yooo.jpg');
+    height: 590px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+       
+    }
+    .content{
+        position: relative;
+     
+        color: #1F2667;
+        width: 320px;
+        background-color: #fff;
+        top: 300px;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+      left: 20px;  margin: 0 0 1.5em;
+       
+        color: #1F2667;
+        font-size: 16px;
+    }
+    .content p,h2{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+      margin: 1rem;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: #1F2667;
+    }
+    .qoutes{
+        position: relative;
+    display: flex;
+    border: 1px dotted #DFE1E6;
+    width: 500px;
+left: -10px;
+    top: 200px;
+
+    
+    }
+    .row{
+      
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 500px;
+        background-color: #fff;
+        padding: 1rem;
+    }
+    .row1{
+      
+        width: 500px;
+       
+    }
+    .row p{
+        font-size: 18px;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: #1F2667;
+        
+    }
+    .column{
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 510px;
+    background-color: #fff;
+        padding: 1.2rem;
+        padding-left: 2rem;
+     margin-left: .1rem;
+    
+    }
+    
+    .contact{
+        width: 510px;
+        display: flex;
+        position: relative;
+        padding: 1rem;
+        margin-top: 1rem;
+        padding-left: 2rem;
+        top: 200px;
+      right: 40px;
+      width: 510px;
+    }
+    .column a{
+        width: 510px;
+        color: #1F2667;
+        text-decoration: none;
+    }
+    .column:hover{
+      border: none;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+      
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        background: #F5F6F7;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 16px;
+    
+    
+    }
+    
+    h1{
+        text-transform: uppercase;
+        background: -webkit-gradient(linear, left top, right top, from(#30CFD0), to(#330867));
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.3rem;
+        color: #fff;
+    }
+    header nav{
+        display: flex;
+       justify-content: space-between;
+    }
+    
+     nav ul {
+        display: flex;
+       justify-content: space-between;
+       padding-left:160px 
+    }
+    nav li {
+        list-style: none;
+        font-size: 14px;
+    padding-left: 2rem;
+    }
+    
+     li a {
+        list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    }
+    .main{
+        background-image: url('./yooo.jpg');
+    height: 590px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+       
+    }
+    .content{
+        position: relative;
+     
+        color: #1F2667;
+        width: 320px;
+        background-color: #fff;
+        top: 300px;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+      left: 20px;  margin: 0 0 1.5em;
+       
+        color: #1F2667;
+        font-size: 16px;
+    }
+    .content p,h2{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+      margin: 1rem;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: #1F2667;
+    }
+    .qoutes{
+        position: relative;
+    display: flex;
+    border: 1px dotted #DFE1E6;
+    width: 500px;
+left: -10px;
+    top: 200px;
+
+    
+    }
+    .row{
+      
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 500px;
+        background-color: #fff;
+        padding: 1rem;
+    }
+    .row1{
+      
+        width: 500px;
+       
+    }
+    .row p{
+        font-size: 18px;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 400;
+        color: #1F2667;
+        
+    }
+    .column{
+        border: 1px solid #DFE1E6;
+        border-radius: 4px;
+        width: 510px;
+    background-color: #fff;
+        padding: 1.2rem;
+        padding-left: 2rem;
+     margin-left: .1rem;
+    
+    }
+    
+    .contact{
+        width: 510px;
+        display: flex;
+        position: relative;
+        padding: 1rem;
+        margin-top: 1rem;
+        padding-left: 2rem;
+        top: 200px;
+      right: 40px;
+      width: 510px;
+    }
+    .column a{
+        width: 510px;
+        color: #1F2667;
+        text-decoration: none;
+    }
+    .column:hover{
+      border: none;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
